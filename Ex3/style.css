@@ -1,0 +1,29 @@
+*{
+    width: 100%;
+
+
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    
+
+    & .container1 {
+        width: 100%;
+        background-color: red;
+        padding: 7%;
+    }
+
+    & .container2 {
+        width: 100%;
+        background-color: rgb(6, 238, 60);
+        padding: 7%;
+    }
+
+    & .container3 {
+        width: 100%;
+        background-color: blue;
+        padding: 7%;
+    }
+}
